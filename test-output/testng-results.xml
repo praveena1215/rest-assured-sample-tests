@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10965" started-at="2020-04-22T19:32:42Z" finished-at="2020-04-22T19:32:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10965" started-at="2020-04-22T19:32:42Z" finished-at="2020-04-22T19:32:53Z">
+      <class name="WeatherAPITesting">
+        <test-method status="PASS" signature="TestCase1()[pri:0, instance:WeatherAPITesting@1ccaa]" name="TestCase1" duration-ms="3151" started-at="2020-04-22T20:32:42Z" finished-at="2020-04-22T20:32:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase1 -->
+        <test-method status="PASS" signature="testTimeZone()[pri:0, instance:WeatherAPITesting@1ccaa]" name="testTimeZone" duration-ms="7782" started-at="2020-04-22T20:32:45Z" finished-at="2020-04-22T20:32:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTimeZone -->
+      </class> <!-- WeatherAPITesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

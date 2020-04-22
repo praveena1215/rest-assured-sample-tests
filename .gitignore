@@ -1,0 +1,9 @@
+/target/*
+.classpath
+.project
+.git
+/.settings/
+/.idea/
+/lib/
+/src/test/java/TestDog.java
+/src/test/java/Dog.java

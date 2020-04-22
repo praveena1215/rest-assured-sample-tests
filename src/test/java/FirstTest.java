@@ -45,6 +45,8 @@ public class FirstTest {
         Assert.assertTrue(totalItems>0,"Total Items should be greater than 0");
 
         List<Object> allBooks = JsonPath.read(response.asString(),"$.items");
+        
+        System.out.println("Testcase 2 No.of Books :"+ allBooks.size());
 
         Assert.assertEquals(allBooks.size(),10, "10 Books should be returned by default");
     }
